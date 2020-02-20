@@ -22,7 +22,8 @@
   <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github">
-    <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="arthur-she/lhg-oe-manifests" path="conf" remote="github">
+    <linkfile dest="setup-environment" src="setup-environment-internal"/>
   </project>
 </manifest>
